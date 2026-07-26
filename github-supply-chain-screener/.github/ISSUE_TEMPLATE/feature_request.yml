@@ -1,0 +1,17 @@
+name: Detection or workflow proposal
+description: Propose a safe, evidence-backed improvement.
+title: "proposal: "
+labels: ["proposal"]
+body:
+  - type: textarea
+    id: use-case
+    attributes:
+      label: Use case and risk addressed
+    validations:
+      required: true
+  - type: textarea
+    id: false-positives
+    attributes:
+      label: Expected false-positive trade-off
+    validations:
+      required: true
