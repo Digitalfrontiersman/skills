@@ -1,0 +1,9 @@
+[project]
+name = "github-supply-chain-screener"
+version = "0.1.0"
+description = "Evidence-first static triage for GitHub supply-chain and prompt-injection risk."
+requires-python = ">=3.10"
+license = { text = "MIT" }
+
+[tool.unittest]
+start-directory = "tests"
