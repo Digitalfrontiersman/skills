@@ -1,0 +1,20 @@
+name: Bug report
+description: Report a reproducible non-security issue.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: "Do not disclose security vulnerabilities, secrets, or malicious payloads here; use SECURITY.md instead."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Safe reproduction steps
+    validations:
+      required: true
