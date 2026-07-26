@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Supply-Chain Screener"
+  short_description: "Screen repos for malware and prompt injection"
+  default_prompt: "Use $github-supply-chain-screener to assess this GitHub repository before installation."
