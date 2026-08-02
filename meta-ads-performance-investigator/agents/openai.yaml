@@ -1,0 +1,6 @@
+interface:
+  display_name: "Meta Ads Performance Investigator"
+  short_description: "Investigate Meta ads and conversion failures"
+  default_prompt: "Use $meta-ads-performance-investigator to audit my Meta ads, identify conversion failures, and recommend the next actions."
+policy:
+  allow_implicit_invocation: true
