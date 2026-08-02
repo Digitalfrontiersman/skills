@@ -11,6 +11,7 @@ skills are never automatically copied from private workspaces.
 | Skill | What it does |
 | --- | --- |
 | [GitHub Supply-Chain Screener](github-supply-chain-screener/) | Static triage for risky install hooks, suspicious download-and-execute patterns, credential access, exfiltration indicators, and prompt-injection attempts in untrusted repositories. |
+| [Meta Ads Performance Investigator](meta-ads-performance-investigator/) | Read-only Meta Ads performance auditing that connects delivery metrics to lead quality, sales follow-up, tracking, and revenue. |
 
 ## Trust labels
 
