@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Inner Evolution Guidance System Session State",
+  "type": "object",
+  "properties": {
+    "priorities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "rank": { "type": "integer", "minimum": 1 },
+          "label": { "type": "string" },
+          "evidence": { "type": "array", "items": { "type": "string" } }
+        },
+        "required": ["rank", "label"]
+      }
+    },
+    "goal": {
+      "type": "object",
+      "properties": {
+        "outcome": { "type": "string" },
+        "why_now": { "type": "string" },
+        "metric": { "type": "string" },
+        "review_date": { "type": "string" },
+        "classification": {
+          "type": "string",
+          "enum": ["aligned", "linkable", "borrowed-or-unclear", "redesign-or-delegate", "outside-scope"]
+        }
+      }
+    },
+    "identity": {
+      "type": "object",
+      "properties": {
+        "label": { "type": "string" },
+        "observable_behaviors": { "type": "array", "items": { "type": "string" } }
+      }
+    },
+    "beliefs": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "statement": { "type": "string" },
+          "evidence_for": { "type": "array", "items": { "type": "string" } },
+          "evidence_against": { "type": "array", "items": { "type": "string" } },
+          "safe_test": { "type": "string" }
+        }
+      }
+    },
+    "attention": {
+      "type": "object",
+      "properties": {
+        "current_target": { "type": "string" },
+        "distraction_cues": { "type": "array", "items": { "type": "string" } },
+        "chosen_redirect": { "type": "string" }
+      }
+    },
+    "target_action": {
+      "type": "object",
+      "properties": {
+        "description": { "type": "string" },
+        "minimum_version": { "type": "string" },
+        "first_physical_step": { "type": "string" }
+      }
+    },
+    "connections": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "action": { "type": "string" },
+          "mechanism": { "type": "string" },
+          "priority_or_lens": { "type": "string" },
+          "status": { "type": "string", "enum": ["candidate", "partial", "validated", "rejected"] },
+          "truth_score": { "type": "number", "minimum": 0, "maximum": 10 },
+          "evidence": { "type": "string" }
+        },
+        "required": ["status"]
+      }
+    },
+    "plan": {
+      "type": "object",
+      "properties": {
+        "cue": { "type": "string" },
+        "place_or_time": { "type": "string" },
+        "action": { "type": "string" },
+        "obstacle": { "type": "string" },
+        "if_then_response": { "type": "string" },
+        "backup_version": { "type": "string" },
+        "proof_metric": { "type": "string" },
+        "review_date": { "type": "string" }
+      }
+    },
+    "proof_log": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "date": { "type": "string" },
+          "action_completed": { "type": "string" },
+          "evidence": { "type": "string" },
+          "lesson": { "type": "string" }
+        }
+      }
+    }
+  }
+}
