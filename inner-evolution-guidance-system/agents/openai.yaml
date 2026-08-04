@@ -1,0 +1,4 @@
+interface:
+  display_name: "Inner Evolution Guidance System"
+  short_description: "Guide inner growth into grounded action"
+  default_prompt: "Use $inner-evolution-guidance-system to clarify what matters, test my goal, and turn it into one grounded next action."
