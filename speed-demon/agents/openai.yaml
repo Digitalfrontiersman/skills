@@ -1,0 +1,4 @@
+interface:
+  display_name: "Speed Demon"
+  short_description: "Drive authorized tasks to verified completion."
+  default_prompt: "Use $speed-demon to move this authorized task to a verified outcome with minimal handoffs."
