@@ -1,0 +1,4 @@
+interface:
+  display_name: "Create Public Skill"
+  short_description: "Turn a private skill into a safe public release."
+  default_prompt: "Use $create-public-skill to prepare this private skill for a safe public GitHub release."
