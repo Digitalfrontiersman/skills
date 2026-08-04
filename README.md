@@ -30,7 +30,7 @@ AI skills make that idea real.
 
 Instead of teaching your AI every process from the beginning, you can install a skill and give it a new way to think, operate, investigate, create, or execute.
 
-Find the capability. Download the skill. Upgrade your agent
+Find the capability. Download the skill. Upgrade your agent.
 
 **THE MISSION: 100–1000x**
 
@@ -51,11 +51,9 @@ Results: Ship useful work into the real world.
 
 Move faster than anyone else on the planet without sacrificing judgment, security, or quality.
 
-A Field Kit for the Digital Frontier
+## A Field Kit for the Digital Frontier
 
-This repository is not a museum of experiments.
-
-It is a working field kit.
+This repository is not a museum of experiments. It is a working field kit.
 
 Each public skill is created to help you investigate, build, automate, analyze, protect, and execute at a level that was previously impossible for one person.
 
@@ -64,24 +62,16 @@ Fork what helps.
 Build what is missing.
 Then leave the frontier better than you found it.
 
-**A Gift Back to the World**
-
-**The frontier** gave me a new way to build, think, and create.
-
-This repository is my way of giving that leverage back.
-
-The skills released here are intended to help the next generation of exponential creators become more capable, more independent, and more dangerous to outdated limitations.
-
-The future should not belong only to the largest companies or the people with the most resources.
-
-It should belong to those willing to explore it.
-
 ## Available skills
 
 | Skill | What it does |
 | --- | --- |
 | [GitHub Supply-Chain Screener](github-supply-chain-screener/) | Static triage for risky install hooks, suspicious download-and-execute patterns, credential access, exfiltration indicators, and prompt-injection attempts in untrusted repositories. |
 | [Meta Ads Performance Investigator](meta-ads-performance-investigator/) | Read-only Meta Ads performance auditing that connects delivery metrics to lead quality, sales follow-up, tracking, and revenue. |
+| [Inner Evolution Guidance System](inner-evolution-guidance-system/) | Reflective coaching that turns demonstrated priorities, beliefs, and attention into one grounded next action. |
+| [FIREWOLF Security Guardian](firewolf-security-guardian/) | A calm safety checkpoint for prompt injection, scams, dangerous downloads, secrets, permissions, and high-impact actions. |
+
+> Adding a skill? Follow [Create a Public Skill](CREATE-SKILL.md) before publishing it, then add its row to this table.
 
 ## Trust labels
 
@@ -91,24 +81,14 @@ It should belong to those willing to explore it.
 
 ## Private vs. public
 
-Not everything I build belongs in public.
+Not everything I build belongs in public. Private projects remain inside separate repositories and worktrees.
 
-Private projects remain inside separate repositories and worktrees. 
+I will work, test, and make sure there is value before I release.
 
-I will work, test, and make sure their is value before i release.
-
-A skill only enters this collection when I deliberately decide that it can help other creators move faster.
-And when society is ready.
+A skill only enters this collection when I deliberately decide that it can help other creators move faster—and when society is ready.
 
 Publication is intentional.
 Publication is reviewed.
 Publication is never an automatic sync.
 
 Built by [The Digital Frontiersman](https://github.com/Digitalfrontiersman).
-
-
-## Public Skills
-
-| Skill | What it does |
-| --- | --- |
-| [Inner Evolution Guidance System](inner-evolution-guidance-system/) | Reflective coaching that turns demonstrated priorities, beliefs, and attention into one grounded next action. |
