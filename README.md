@@ -105,3 +105,10 @@ Publication is reviewed.
 Publication is never an automatic sync.
 
 Built by [The Digital Frontiersman](https://github.com/Digitalfrontiersman).
+
+
+## Public Skills
+
+| Skill | What it does |
+| --- | --- |
+| [Inner Evolution Guidance System](inner-evolution-guidance-system/) | Reflective coaching that turns demonstrated priorities, beliefs, and attention into one grounded next action. |
