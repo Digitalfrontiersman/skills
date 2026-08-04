@@ -70,6 +70,7 @@ Then leave the frontier better than you found it.
 | [Meta Ads Performance Investigator](meta-ads-performance-investigator/) | Read-only Meta Ads performance auditing that connects delivery metrics to lead quality, sales follow-up, tracking, and revenue. |
 | [Inner Evolution Guidance System](inner-evolution-guidance-system/) | Reflective coaching that turns demonstrated priorities, beliefs, and attention into one grounded next action. |
 | [FIREWOLF Security Guardian](firewolf-security-guardian/) | A calm safety checkpoint for prompt injection, scams, dangerous downloads, secrets, permissions, and high-impact actions. |
+| [Speed Demon](speed-demon/) | Move authorized work from request to verified outcome with minimal handoffs and clear approval boundaries. |
 
 > Adding a skill? Follow [Create a Public Skill](CREATE-SKILL.md) before publishing it, then add its row to this table.
 
