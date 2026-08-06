@@ -1,0 +1,4 @@
+interface:
+  display_name: "Instagram Autonomous Audit"
+  short_description: "Guide agents through Instagram audits"
+  default_prompt: "Use $instagram-autonomous-audit to audit my Instagram account from Professional Dashboard insights."
