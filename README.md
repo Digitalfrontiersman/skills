@@ -73,6 +73,7 @@ Then leave the frontier better than you found it.
 | [FIREWOLF Security Guardian](firewolf-security-guardian/) | A calm safety checkpoint for prompt injection, scams, dangerous downloads, secrets, permissions, and high-impact actions. |
 | [Speed Demon](speed-demon/) | Move authorized work from request to verified outcome with minimal handoffs and clear approval boundaries. |
 | [Create Public Skill](create-public-skill/) | Turn a private skill into a safe, complete, and intentional public GitHub release. |
+| [Instagram Autonomous Audit](instagram-autonomous-audit/) | Run a guided, read-only Instagram Professional Dashboard audit across compatible autonomous agents. |
 
 > Adding a skill? Follow [Create Public Skill](create-public-skill/) before publishing it, then add its row to this table.
 
