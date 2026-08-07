@@ -1,0 +1,4 @@
+interface:
+  display_name: "IDEA CHAIN"
+  short_description: "Chain ideas in Fast, Pro, or God Mode"
+  default_prompt: "Use $idea-chain to develop this seed into a focused chain of major ideas leading to one goal."
