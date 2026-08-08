@@ -69,6 +69,7 @@ Then leave the frontier better than you found it.
 | [GitHub Supply-Chain Screener](github-supply-chain-screener/) | Static triage for risky install hooks, suspicious download-and-execute patterns, credential access, exfiltration indicators, and prompt-injection attempts in untrusted repositories. |
 | [Meta Ads Performance Investigator](meta-ads-performance-investigator/) | Read-only Meta Ads performance auditing that connects delivery metrics to lead quality, sales follow-up, tracking, and revenue. |
 | [IDEA CHAIN](idea-chain/) | Turn any seed into a concise, pressure-tested chain of major ideas leading to one clear goal, with Fast, Pro, or God research modes. |
+| [Higgsfield Goblin](higgsfield-goblin/) | Turn a rough creative idea into a controlled Higgsfield production plan spanning direction, prompts, continuity, generation, editing, and delivery. |
 | [Inner Evolution Guidance System](inner-evolution-guidance-system/) | Reflective coaching that turns demonstrated priorities, beliefs, and attention into one grounded next action. |
 | [FIREWOLF Security Guardian](firewolf-security-guardian/) | A calm safety checkpoint for prompt injection, scams, dangerous downloads, secrets, permissions, and high-impact actions. |
 | [Speed Demon](speed-demon/) | Move authorized work from request to verified outcome with minimal handoffs and clear approval boundaries. |

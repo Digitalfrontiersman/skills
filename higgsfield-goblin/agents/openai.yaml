@@ -1,0 +1,15 @@
+interface:
+  display_name: "Higgsfield Goblin"
+  short_description: "Direct cinematic productions with Higgsfield"
+  default_prompt: "Use $higgsfield-goblin to turn my idea into a directed, production-ready Higgsfield project."
+
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "higgsfield"
+      description: "Official Higgsfield image, video, audio, character, and generation-history tools"
+      transport: "streamable_http"
+      url: "https://mcp.higgsfield.ai/mcp"
+
+policy:
+  allow_implicit_invocation: true
